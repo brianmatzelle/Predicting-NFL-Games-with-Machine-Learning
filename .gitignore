@@ -8,3 +8,8 @@ all_target_drives.pickle
 all_target_drives.txt
 all_drives_2007_season.pickle
 all_target_drives_2007_season.pickle
+nfl/
+pbp_2007_WL.pkl
+pbp_2007_WL.csv
+data.csv
+columns.txt
