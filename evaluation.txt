@@ -1,70 +1,70 @@
-Accuracy Score: 0.7778637770897833
+Accuracy Score: 0.6668730650154798
 Confusion Matrix: 
                           Predicted End of half  Predicted Field Goal  \
-Actual End of half                          168                     1   
-Actual Field Goal                             5                   848   
-Actual Missed field goal                      3                    28   
-Actual Opp touchdown                          2                     2   
-Actual Punt                                   2                    25   
+Actual End of half                          135                     3   
+Actual Field Goal                            11                   634   
+Actual Missed field goal                      4                    45   
+Actual Opp touchdown                          2                     0   
+Actual Punt                                   3                    23   
 Actual Safety                                 0                     0   
-Actual Touchdown                              0                    57   
-Actual Turnover                               3                    33   
-Actual Turnover on downs                      3                    16   
+Actual Touchdown                              2                   129   
+Actual Turnover                               5                    42   
+Actual Turnover on downs                      7                    24   
 
                           Predicted Missed field goal  \
-Actual End of half                                  1   
-Actual Field Goal                                   0   
-Actual Missed field goal                          123   
-Actual Opp touchdown                                1   
-Actual Punt                                         0   
+Actual End of half                                  0   
+Actual Field Goal                                   1   
+Actual Missed field goal                           65   
+Actual Opp touchdown                                2   
+Actual Punt                                         1   
 Actual Safety                                       0   
 Actual Touchdown                                    0   
-Actual Turnover                                     1   
+Actual Turnover                                     0   
 Actual Turnover on downs                            0   
 
                           Predicted Opp touchdown  Predicted Punt  \
-Actual End of half                              0              22   
-Actual Field Goal                               0             195   
-Actual Missed field goal                        0              51   
-Actual Opp touchdown                           24              38   
-Actual Punt                                     1            2196   
-Actual Safety                                   0               5   
-Actual Touchdown                                0             254   
-Actual Turnover                                 0             235   
-Actual Turnover on downs                        0              63   
+Actual End of half                              0              46   
+Actual Field Goal                               0             275   
+Actual Missed field goal                        0              80   
+Actual Opp touchdown                           12              49   
+Actual Punt                                     0            2189   
+Actual Safety                                   0               6   
+Actual Touchdown                                0             370   
+Actual Turnover                                 0             301   
+Actual Turnover on downs                        0              96   
 
                           Predicted Safety  Predicted Touchdown  \
-Actual End of half                       0                    1   
-Actual Field Goal                        0                  111   
-Actual Missed field goal                 0                   31   
-Actual Opp touchdown                     0                   24   
-Actual Punt                              0                   80   
-Actual Safety                            6                    0   
-Actual Touchdown                         0                 1171   
-Actual Turnover                          0                   72   
-Actual Turnover on downs                 0                   21   
+Actual End of half                       0                    8   
+Actual Field Goal                        0                  232   
+Actual Missed field goal                 0                   40   
+Actual Opp touchdown                     0                   26   
+Actual Punt                              0                   89   
+Actual Safety                            3                    0   
+Actual Touchdown                         0                  973   
+Actual Turnover                          0                  107   
+Actual Turnover on downs                 0                   48   
 
                           Predicted Turnover  Predicted Turnover on downs  
-Actual End of half                         2                            0  
-Actual Field Goal                          2                            1  
-Actual Missed field goal                   0                            0  
+Actual End of half                         1                            2  
+Actual Field Goal                          5                            4  
+Actual Missed field goal                   1                            1  
 Actual Opp touchdown                       0                            0  
-Actual Punt                               10                            3  
-Actual Safety                              0                            0  
-Actual Touchdown                           8                            9  
-Actual Turnover                          260                            8  
-Actual Turnover on downs                   5                          229  
+Actual Punt                               11                            1  
+Actual Safety                              2                            0  
+Actual Touchdown                          12                           13  
+Actual Turnover                          145                           12  
+Actual Turnover on downs                  10                          152  
 Classification Report: 
               precision    recall  f1-score      support
-0              0.903226  0.861538  0.881890   195.000000
-1              0.839604  0.729776  0.780847  1162.000000
-2              0.976190  0.521186  0.679558   236.000000
-3              0.960000  0.263736  0.413793    91.000000
-4              0.717882  0.947777  0.816964  2317.000000
-5              1.000000  0.545455  0.705882    11.000000
-6              0.774983  0.781187  0.778073  1499.000000
-7              0.905923  0.424837  0.578420   612.000000
-8              0.916000  0.679525  0.780239   337.000000
-accuracy       0.777864  0.777864  0.777864     0.777864
-macro avg      0.888201  0.639447  0.712852  6460.000000
-weighted avg   0.800099  0.777864  0.768000  6460.000000
+0              0.798817  0.692308  0.741758   195.000000
+1              0.704444  0.545611  0.614937  1162.000000
+2              0.942029  0.275424  0.426230   236.000000
+3              1.000000  0.131868  0.233010    91.000000
+4              0.641559  0.944756  0.764182  2317.000000
+5              1.000000  0.272727  0.428571    11.000000
+6              0.638871  0.649099  0.643944  1499.000000
+7              0.775401  0.236928  0.362954   612.000000
+8              0.821622  0.451039  0.582375   337.000000
+accuracy       0.666873  0.666873  0.666873     0.666873
+macro avg      0.813638  0.466640  0.533107  6460.000000
+weighted avg   0.695703  0.666873  0.640864  6460.000000
